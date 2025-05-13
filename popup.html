@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Facebook Post Cleaner</title>
+  <style>
+    body {
+      width: 300px;
+      padding: 15px;
+      font-family: Arial, sans-serif;
+    }
+    .button {
+      width: 100%;
+      padding: 10px;
+      margin: 5px 0;
+      background-color: #1877f2;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-size: 14px;
+    }
+    .button:hover {
+      background-color: #166fe5;
+    }
+    .status {
+      margin-top: 10px;
+      padding: 10px;
+      border-radius: 5px;
+      display: none;
+    }
+    .success {
+      background-color: #e7f3e5;
+      color: #2d5a27;
+    }
+    .error {
+      background-color: #fde7e9;
+      color: #a51d2d;
+    }
+  </style>
+</head>
+<body>
+  <h2>Facebook Post Cleaner</h2>
+  <button id="deleteAll" class="button">Delete All Posts</button>
+  <button id="deleteShared" class="button">Delete Shared Posts Only</button>
+  <div id="status" class="status"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
