@@ -20,7 +20,7 @@ Facebook Post Cleaner is a Chrome extension that allows users to quickly delete 
    - **Delete All Posts**: Deletes all posts from your timeline.
    - **Delete Shared Posts Only**: Deletes only shared posts.
 
-## Files
+## Filess
 - **popup.html**: The user interface for the extension.
 - **popup.js**: Handles button clicks and communicates with the content script.
 - **content.js**: Contains the logic to interact with the Facebook DOM and delete posts.
